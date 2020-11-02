@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+/*	border: 0;  */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers*/ 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    /*border:1px solid #eeeeee;*/
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    font-family: 'Yantramanav', sans-serif;
+    line-height:1.5;
+    background-color: #353d42;
+}
+header{
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size:5rem;
+    color: aliceblue;
+}
+h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size:2.2rem;
+    color: aliceblue;
+}
+a{
+    text-decoration:none;
+}
+nav{
+    padding:2% 0;
+    display:flex;
+    justify-content:left;
+}
+nav a{
+    display:inline-block;
+    border-radius:1px;
+    text-align:center;
+    padding:1% 2%;
+    color:#000000;
+}
+nav a:hover{
+    display:inline-block;
+    border-radius:1px;
+    text-align:center;
+    padding:1% 2%;
+    color:#ffffff;
+    background-color: rgb(99, 128, 182);
+}
+.homeBtn{
+    background-color:#293d63;
+    margin-left:5%;
+    color: aliceblue;
+    width: 160px;
+    
+}
+.aboutBtn{
+    background-color:#80acdf;
+    width: 125px;
+}
+.contactBtnA{
+    background-color:#80acdf;
+    width: 125px;
+}
+.contactBtnB{
+    background-color:#80acdf;
+    width: 100px;
+}
+.projectsBtnA{
+    background-color:#80acdf;
+    width: 125px;
+}
+.projectsBtnB{
+    background-color:#80acdf;
+    width: 150px;
+}
+.imgNormalize{
+    width:35%;
+    margin:2%;
+    text-align: center;
+}
+.SecA{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#576b81;
+}
+.SecA1{
+    display:flex;
+}
+.SecA2{
+    display:flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 5%;
+}
+.SecB{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #576b81;
+    color: aliceblue;
+    
+    
+}
+footer{
+    display:flex;
+    padding-top: 1%;
+    padding-left: 29%;
+    padding-right: 29%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+footer a:hover{
+    border-radius:1px;
+    text-align:center;
+    color:#ffffff;
+    background-color: rgb(99, 128, 182);
+}
+
+/* MOBILE VIEW 800*/
+@media(max-width:800px){
+    body{
+        font-size:1.5rem;
+        font-family: 'Yantramanav', sans-serif;
+        line-height:1.4;
+     }
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h1{
+        font-family: 'Kaushan Script', cursive;
+        font-size:3.5rem;
+    }
+    h2{
+        font-family: 'Kaushan Script', cursive;
+        font-size:2.2rem;
+    }
+    nav{
+        padding:2%;
+        display:flex;
+        justify-content:center;
+    }
+    nav a{
+        border-radius:1px;
+        text-align:center;
+        padding:1% 1%;
+    }
+    nav a:hover{
+        text-align:center;
+        padding:1% 1%;      
+    }
+    .homeBtn{
+        margin-left:0%;
+        width: 140px;
+    }
+    .aboutBtn{
+        width: 105px;
+    }
+    .contactBtnA{
+        width: 105px;
+    }
+    .contactBtnB{
+        width: 100px;
+    }
+    .projectsBtnA{
+        width: 105px;
+    }
+    .projectsBtnB{
+        width: 140px;
+    }
+    .imgNormalize{
+        width:38%;
+        margin:2%;
+        text-align: center;
+    }
+    .SecA{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .SecA2{
+        flex-direction: column;
+        padding: 5%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .SecB{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        padding-top: 1%;
+        padding-left: 29%;
+        padding-right: 29%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}/*Mobile Close 800*/
+
+/* MOBILE VIEW 500*/
+@media(max-width:500px){
+    body{
+        font-size:1.4rem;
+        font-family: 'Yantramanav', sans-serif;
+        line-height:1.3;
+    }
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h1{
+        font-family: 'Kaushan Script', cursive;
+        font-size:3.4rem;
+    }
+    h2{
+        font-family: 'Kaushan Script', cursive;
+        font-size:2.1rem;
+    }
+    nav{
+        padding:1%;
+        display:flex;
+        justify-content:center;
+    }
+    nav a{
+        border-radius:1px;
+        text-align:center;
+        padding:0% 1%;
+    }
+    nav a:hover{
+        text-align:center;
+        padding:0% 1%;      
+    }
+    .homeBtn{
+        margin-left:0%;
+        width: 130px;
+    }
+    .aboutBtn{
+        width: 95px;
+    }
+    .contactBtnA{
+        width: 95px;
+    }
+    .contactBtnB{
+        width: 90px;
+    }
+    .projectsBtnA{
+        width: 95px;
+    }
+    .projectsBtnB{
+        width: 130px;
+    }
+    .imgNormalize{
+        width:40%;
+        margin:1%;
+        text-align: center;
+    }
+    .SecA{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .SecA2{
+        flex-direction: column;
+        color: aliceblue;
+        padding: 4%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .SecB{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        padding-top: 1%;
+        padding-left: 29%;
+        padding-right: 29%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}/*Mobile Close 500*/
