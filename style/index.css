@@ -50,7 +50,7 @@ table {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid #eeeeee;
+    /*border:1px solid #eeeeee;*/
 }
 
 html{
@@ -199,7 +199,14 @@ footer a:hover{
 /* MOBILE VIEW */
 
 @media(max-width:800px){
-        
+    
+    body{
+        font-size:1.5rem;
+        font-family: 'Yantramanav', sans-serif;
+        line-height:1.4;
+        background-color: #353d42;
+    }
+
     header{
         display:flex;
         flex-direction: column;
@@ -230,29 +237,29 @@ footer a:hover{
         display:inline-block;
         border-radius:1px;
         text-align:center;
-        padding:1% 2%;
+        padding:1% 1%;
         color:#000000;
     }
     
     nav a:hover{
         text-align:center;
-        padding:1% 2%;      
+        padding:1% 1%;      
     }
     
     .homeBtn{
         margin-left:0%;
         color: aliceblue;
-        width: 160px;
+        width: 140px;
     }
     
     .aboutBtn{
         background-color:#80acdf;
-        width: 125px;
+        width: 105px;
     }
     
     .contactBtnA{
         background-color:#80acdf;
-        width: 125px;
+        width: 105px;
     }
     
     .contactBtnB{
@@ -262,12 +269,12 @@ footer a:hover{
     
     .projectsBtnA{
         background-color:#80acdf;
-        width: 125px;
+        width: 105px;
     }
     
     .projectsBtnB{
         background-color:#80acdf;
-        width: 150px;
+        width: 140px;
     }
     
     .imgNormalize{
