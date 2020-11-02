@@ -77,7 +77,7 @@ h1{
 
 h2{
     font-family: 'Kaushan Script', cursive;
-    font-size:2rem;
+    font-size:2.2rem;
     color: aliceblue;
 }
 
@@ -196,8 +196,7 @@ footer a:hover{
     background-color: rgb(99, 128, 182);
 }
 
-/* MOBILE VIEW */
-
+/* MOBILE VIEW 800*/
 @media(max-width:800px){
     
     body{
@@ -222,7 +221,7 @@ footer a:hover{
     
     h2{
         font-family: 'Kaushan Script', cursive;
-        font-size:2rem;
+        font-size:2.2rem;
         color: aliceblue;
     }
     
@@ -278,7 +277,7 @@ footer a:hover{
     }
     
     .imgNormalize{
-        width:35%;
+        width:38%;
         margin:2%;
         text-align: center;
     }
@@ -288,10 +287,6 @@ footer a:hover{
         justify-content: center;
         align-items: center;
         background-color:#576b81;
-    }
-    
-    .SecA1{
-        display:flex;
     }
     
     .SecA2{
@@ -311,7 +306,6 @@ footer a:hover{
         align-items: center;
         background-color: #576b81;
         color: aliceblue;
-        
     }
     
     footer{
@@ -326,14 +320,130 @@ footer a:hover{
         color: aliceblue;
     }
     
-    footer a:hover{
-        border-radius:1px;
-        text-align:center;
-        color:#ffffff;
-        background-color: rgb(99, 128, 182);
+}/*Mobile Close 800*/
+
+/* MOBILE VIEW 500*/
+@media(max-width:500px){
+    
+    body{
+        font-size:1.4rem;
+        font-family: 'Yantramanav', sans-serif;
+        line-height:1.3;
+        background-color: #353d42;
+    }
+
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
     
-
-
-
-}/*Mobile Close*/
+    h1{
+        font-family: 'Kaushan Script', cursive;
+        font-size:3.4rem;
+        color: aliceblue;
+    }
+    
+    h2{
+        font-family: 'Kaushan Script', cursive;
+        font-size:2.1rem;
+        color: aliceblue;
+    }
+    
+    
+    nav{
+        padding:1%;
+        display:flex;
+        justify-content:center;
+    }
+    
+    nav a{
+        display:inline-block;
+        border-radius:1px;
+        text-align:center;
+        padding:0% 1%;
+        color:#000000;
+    }
+    
+    nav a:hover{
+        text-align:center;
+        padding:0% 1%;      
+    }
+    
+    .homeBtn{
+        margin-left:0%;
+        color: aliceblue;
+        width: 130px;
+    }
+    
+    .aboutBtn{
+        background-color:#80acdf;
+        width: 95px;
+    }
+    
+    .contactBtnA{
+        background-color:#80acdf;
+        width: 95px;
+    }
+    
+    .contactBtnB{
+        background-color:#80acdf;
+        width: 90px;
+    }
+    
+    .projectsBtnA{
+        background-color:#80acdf;
+        width: 95px;
+    }
+    
+    .projectsBtnB{
+        background-color:#80acdf;
+        width: 130px;
+    }
+    
+    .imgNormalize{
+        width:40%;
+        margin:1%;
+        text-align: center;
+    }
+    
+    .SecA{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#576b81;
+    }
+    
+    .SecA2{
+        display:flex;
+        flex-direction: column;
+        color: aliceblue;
+        padding: 4%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .SecB{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #576b81;
+        color: aliceblue;
+    }
+    
+    footer{
+        display:flex;
+        padding-top: 1%;
+        padding-left: 29%;
+        padding-right: 29%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+    }
+    
+}/*Mobile Close 500*/
